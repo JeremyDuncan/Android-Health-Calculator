@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Metabolism Health Calculator</string>
+    <string name="welcome">Welcome To The Metabolism and Health Calculator</string>
+    <string name="enter_msg">Press Enter To Continue</string>
+    <string name="calc">Calculate</string>
+
+    <string name="menuWelcome">Welcome To The Main Menu</string>
+    <string name="menuMsg">Please make a choice for what you want to calculate</string>
+    <string name="bmrTitle">BMR Calculator</string>
+    <string name="metabTitle">Metabolism Calculator</string>
+    <string name="goEnter">Enter</string>
+    <string name="goMetab">Calculate Metabolism</string>
+    <string name="goBMR">Calculate BMR</string>
+</resources>
