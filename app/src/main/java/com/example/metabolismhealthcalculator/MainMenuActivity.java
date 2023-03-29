@@ -35,7 +35,7 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     private void goBMR() {
-        Intent intent = new Intent(MainMenuActivity.this, CalculateBMRActivity.class);
+        Intent intent = new Intent(MainMenuActivity.this, CalculateBMIActivity.class);
         this.startActivity(intent);
     }
 

@@ -12,7 +12,7 @@
         android:theme="@style/Theme.MetabolismHealthCalculator"
         tools:targetApi="31">
         <activity android:name=".MainMenuActivity" android:exported="false" />
-        <activity android:name=".CalculateBMRActivity" android:exported="false" />
+        <activity android:name=".CalculateBMIActivity" android:exported="false" />
         <activity android:name=".CalculateMetabolismActivity" android:exported="false" />
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
