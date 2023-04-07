@@ -14,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Start Music Service
+        Intent musicServiceIntent = new Intent(this, MusicService.class);
+        startService(musicServiceIntent);
+
         //Add a listener to the button to take you to the temp converter
         Button btnEnter=(Button) findViewById(R.id.btnEnter);
         btnEnter.setOnClickListener(new View.OnClickListener() {
@@ -31,4 +35,11 @@ public class MainActivity extends AppCompatActivity {
         this.startActivity(intent);
     }
 
+    // Add onDestroy method to stop the music service when the app is closed
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Intent musicServiceIntent = new Intent(this, MusicService.class);
+        stopService(musicServiceIntent);
+    }
 }

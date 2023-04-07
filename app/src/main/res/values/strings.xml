@@ -15,5 +15,20 @@
     <string name="BMIInstructions">Enter Your Weight in pounds, and Height in Inches</string>
     <string name="bmi_result">BMI Results:</string>
 
+    <string name="spinnerTxt">How many days of the week do you work out?</string>
+
+    <string-array name="workout_options">
+        <item>5 days a week</item>
+        <item>4 days a week</item>
+        <item>3 days a week</item>
+        <item>2 days a week</item>
+        <item>1 day a week</item>
+        <item>Do not workout</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
 
 </resources>
